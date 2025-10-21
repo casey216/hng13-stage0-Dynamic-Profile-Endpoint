@@ -48,8 +48,8 @@ It is built with **FastAPI** and hosted on **Railway**.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/stage0-profile-api.git
-cd stage0-profile-api
+git clone https://github.com/casey216/hng13-stage0-Dynamic-Profile-Endpoint.git
+cd hng13-stage0-Dynamic-Profile-Endpoint
 ```
 
 ### 2. Create a Virtual Environment
@@ -71,24 +71,6 @@ Visit: [http://127.0.0.1:8000/me](http://127.0.0.1:8000/me)
 
 ---
 
-## 🌐 Deployment (Railway)
-1. Push your project to GitHub.  
-2. Connect the repo to [Railway.app](https://railway.app).  
-3. Add a **Start Command** in Railway settings:
-   ```bash
-   uvicorn main:app --host 0.0.0.0 --port $PORT
-   ```
-4. Redeploy and access your API at:
-   ```
-   https://your-app-name.up.railway.app/me
-   ```
-
----
-
-## 🧾 Environment Variables
-None required for this task.
-
----
 
 ## 🧱 Dependencies
 ```
